@@ -1,0 +1,115 @@
+body {
+    background: #1F2937;
+    color: #fff;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+#hero {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+}
+
+#styled-title {
+    display: block;
+    color: #4ADF86;
+}
+
+#title {
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+    font-weight: 800;
+    letter-spacing: -1;
+}
+
+#subtitle {
+    color: #D5D4D8;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+#generate-btn {
+    margin-top: 50px;
+    margin-bottom: 0;
+    border-radius: 6px;
+    background: #10B981;
+    padding: 12px 18px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: transform 0.4s ease-out;
+}
+
+#generate-btn:hover {
+    transform: scale(1.035);
+    box-shadow: 0 0 10px #101010;
+}
+
+#horizontal-line {
+    border-top: 1px solid #273549;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+#password-result {
+    margin-top: 35px;
+    position: relative;
+}
+
+.password {
+    background: #273549;
+    min-width: 200px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 6px;
+    margin-right: 22px;
+    color: #55F991;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 40px;
+    text-overflow: hidden;
+    padding: 0 3px;
+}
+
+.alert {
+    width: 80px;
+    background: #283342;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    top: 110%;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.alert::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent #283342 transparent;
+}
+
+.tohover:hover .alert {
+    opacity: 1;
+}
+
+.first {
+    left: 60px;
+}
+
+.second {
+    right: 120px;
+}

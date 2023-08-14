@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="icon" type="x-icon" href="password-icon.png">
+    <link rel="stylesheet" href="pass.css">
+    <!-- karla -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet">
+    <!-- inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="hero">
+        <h1 id="title">Generate a <span id="styled-title">random password</span></h1>
+        <h3 id="subtitle">Never use an insecure password again.</h3>
+        <button id="generate-btn">Generate Passwords</button>
+        <div id="horizontal-line"></div>
+        <div id="password-result">
+            <span class="tohover">
+                <span class="password" id="pass1"></span>
+                <span class="alert first">copy</span>
+            </span>
+            <span class="tohover">
+                <span class="password" id="pass2"></span>
+                <span class="alert second">copy</span>
+            </span>
+        </div>
+    </div>
+    <script src="pass.js"></script>
+</body>
+</html>
